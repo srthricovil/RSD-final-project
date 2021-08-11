@@ -1,0 +1,207 @@
+/*HOME*/
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#fitness_banner {
+    background-image: url(../image/kettlebell-3293473_1920.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 670px;
+    position: relative;
+}
+
+.bg_overlay {
+    background: #171819;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+}
+
+#banner_text {
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#banner_text h1 {
+    font-size: 3.5em;
+    padding-bottom: 30px;
+}
+
+#banner_text h6 {
+    margin: 0;
+    color: #d1d0d0;
+    font-size: 28px;
+}
+
+#banner_text a {
+    border: 1px solid #f13a11;
+    padding: 16px;
+    color: #f13a11;
+    text-decoration: none;
+    font-weight: bold
+}
+
+#banner_text a:hover,
+#banner_text a:active {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+#banner_text h2 {
+    padding-top: 120px;
+    color: #d1d0d0;
+}
+
+#banner_text h3 {
+    padding: .01em 6em;
+    color: #d1d0d0;
+}
+
+#our_trainings {
+    padding: 2em 10em;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#our_trainings h2 {
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+#trainings {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#our_trainings .session {
+    max-width: 25%;
+    height: au;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+}
+
+#our_trainings .session:hover {
+    transform: scale(1.05);
+}
+
+#fitness {
+    background-image: url(../image/fitness.png);
+}
+
+#body_building {
+    background-image: url(../image/body-building.png);
+}
+
+#yoga {
+    background-image: url(../image/yoga.png);
+}
+
+#boxing {
+    background-image: url(../image/boxing.png);
+}
+
+#trainings h3 {
+    padding-top: 450px;
+}
+
+#trainings p {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#trainings a {
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#trainings a:hover {
+    background-color: #ffffff;
+}
+
+
+#feature {
+    background-color: #171819;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+#feature h3 {
+    padding-bottom: 20px;
+}
+
+#feature a {
+    padding: 14px 24px;
+    background: #f13a11;
+}
+
+#feature a:hover,
+#feature a:active {
+    background: #ffffff;
+    color: #f13a11;
+}
+
+
+@media (max-width: 768px) {
+    #fitness_banner h1 {
+        font-size: 2.5em;
+    }
+
+    #fitness_banner h6 {
+        font-size: 22px;
+    }
+
+    #banner_text a {
+        padding: 12px;
+    }
+
+    #banner_text h2 {
+        font-size: 1.2em;
+    }
+
+    #banner_text h3 {
+        padding: 0 .15em;
+        font-size: 1.01em;
+    }
+
+    #trainings {
+        display: block;
+        flex-direction: column;
+    }
+
+    #our_trainings {
+        padding: 2em 2em;
+    }
+
+    #our_trainings .session {
+        max-width: 100%;
+        height: 400px;
+        background-size: cover;
+    }
+
+    #trainings h3 {
+        padding-top: 200px;
+    }
+}
